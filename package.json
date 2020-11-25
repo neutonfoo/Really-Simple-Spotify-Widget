@@ -1,0 +1,9 @@
+{
+  "name": "really-simple-spotify-widget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fast-average-color": "^6.2.0"
+  }
+}
