@@ -26,12 +26,11 @@ let album_color = {
 export const className = {
   top: options.top,
   left: options.left,
+  width: options.width,
   userSelect: "none",
 };
 
-const containerClassName = css({
-  width: options.width,
-});
+const containerClassName = css({});
 
 const albumCoverClassName = css({
   width: "100%",
