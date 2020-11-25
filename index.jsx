@@ -1,4 +1,4 @@
-import { css } from "uebersicht";
+import { css, run } from "uebersicht";
 import FastAverageColor from "fast-average-color";
 
 const options = {
@@ -9,12 +9,14 @@ const options = {
   fontFamily: "Gill Sans",
   songFontSize: "22pt",
   artistFontSize: "14px",
-  // accent: "#FFF",
+  accent: "rgba(0, 0, 0, 0.8)",
 };
 
 export const command =
   "osascript ./Really-Simple-Spotify-Widget/now-playing.scpt | echo";
 export const refreshFrequency = 1000;
+
+const playPause = "osascript ./Really-Simple-Spotify-Widget/playpause.scpt";
 
 const fac = new FastAverageColor();
 let album_color = {
@@ -122,6 +124,7 @@ export const render = ({
         className={albumCoverClassName}
         src={album_art}
         draggable="false"
+        onClick={() => run(playPause)}
       />
       <div className={progressClassName}>
         <div
