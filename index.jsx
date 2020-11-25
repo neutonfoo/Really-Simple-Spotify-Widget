@@ -110,7 +110,8 @@ export const render = ({
   seconds_played,
 }) => {
   if (!is_playing) {
-    return <p className={containerClassName}>Not PLaying</p>;
+    // If not playing, don't display anything
+    return <div></div>;
   }
 
   const mainColor = `rgb(${album_color.r}, ${album_color.g}, ${album_color.b})}`;
