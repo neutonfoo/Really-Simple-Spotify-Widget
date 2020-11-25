@@ -1,10 +1,11 @@
 # Really Simple Spotify Widget
 
-A REALLY simple Now Playing Spotify Übersicht widget.
+A REALLY simple Now Playing Spo
+tify Übersicht widget.
 
-![Really Simple Spotify Widget](screenshot.png)
+![Really Simple Spotify Widget 1](screenshot2.png)
 
-![Really Simple Spotify Widget](screenshot2.png)
+![Really Simple Spotify Widget 2](screenshot3.png)
 
 ## Installation
 
