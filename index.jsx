@@ -9,7 +9,8 @@ const options = {
   fontFamily: "Gill Sans",
   songFontSize: "22pt",
   artistFontSize: "14px",
-  accent: "rgba(0, 0, 0, 0.8)",
+  // accent: "rgba(0, 0, 0, 0.9)",
+  accent: "rgba(255, 255, 255, 0.8)",
 };
 
 export const command =
@@ -57,7 +58,7 @@ const artistClassName = css({
   textAlign: "center",
   fontFamily: options.fontFamily,
   fontSize: options.artistFontSize,
-  fontStyle: "italic",
+  // fontStyle: "italic",
 });
 
 export const updateState = (event, previousState) => {
