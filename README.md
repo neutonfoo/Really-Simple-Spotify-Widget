@@ -1,7 +1,6 @@
 # Really Simple Spotify Widget
 
-A REALLY simple Now Playing Spo
-tify Übersicht widget.
+A REALLY simple Now Playing Spotify Übersicht widget. Clicking the album cover pauses / plays the current track.
 
 ![Really Simple Spotify Widget 1](screenshot2.png)
 
